@@ -1,0 +1,93 @@
+/* 
+1. General
+2. Navigation
+3. Social
+4. Home
+*/
+
+/*
+=================================
+=  1  ========  General =========
+=================================
+*/
+body {
+	color:white;
+	margin: 0 auto;
+	background-image: linear-gradient( to right, #000000, #434343);
+}
+
+/*
+=================================
+=  2  =======  Navigation =======
+=================================
+*/
+#nav-top ul, #nav-top li, #nav-top a {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	text-align: center;
+	min-height: 48px;
+	width: auto;
+}
+ul#nav li {
+	position: relative;
+	list-style: none;
+	height: 48px;
+	display: inline-block;
+}
+
+ul#nav li a {
+	display: inline-block;
+	padding: 8px 13px;
+	line-height: 32px;
+	text-align: left;
+	color: #fff;
+}
+
+ul#nav li.current a { color: #F06000; }
+
+/*
+=================================
+=  3  =======  Social  ==========
+=================================
+*/
+li a img {
+	width: 50px;
+}
+
+header .social {
+	margin: 25px 0;
+	padding: 0px;
+	font-size: 30px;
+}
+
+header .social li {
+	display: inline-block;
+	margin: 0 15px;
+	padding: 0px;
+}
+
+/*
+=================================
+=  4  =======  Home  ============
+=================================
+*/
+header {
+	height: 800px;
+	text-align: center;
+}
+
+header .home{
+	height: 700px;
+	width: 80%;
+	margin: 0 auto;
+}
+header .home .inner{
+	height: auto;
+	position: relative; 
+	width: 80%;
+	top: 50%;
+	transform: translateY(-50%);
+}
